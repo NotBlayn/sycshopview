@@ -1,5 +1,5 @@
 mat-toolbar {
-    background-color: #4d79ff;
+    background-color: #277da1;
     top: 8%;
     position: relative;
     width: 17%;
@@ -12,28 +12,115 @@ mat-sidenav-container {
     top: 8%;
     position: relative;
     width: 17%;
-    background-color: #99b3ff;
+    background-color: #a0ced9;
     border: solid #333333 1px;
+    height: 85%;
 
     .shop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 3%;
         text-align: center;
         border: solid #333333 1px;
+        height: 31%;
+        background-color: #d8e2dc;
+        
 
-        &-button {
+        button {
+            outline: none;
+            border: none;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            background: #737373;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            font-weight: 300;
 
+            &:hover{
+                color: #737373;
+                background-color: #fff;
+                border: 1px solid #3f51b5;
+            }
         }
     }
 
     .product {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 3%;
         text-align: center;
         border: solid #333333 1px;
+        height: 31%;
+        background-color: #adf7b6;
+
+        button {
+            outline: none;
+            border: none;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            background: #34814e;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            font-weight: 300;
+
+            &:hover{
+                color: #3e7221;
+                background-color: #fff;
+                border: 1px solid #3f51b5;
+            }
+        }
     }
-    
+
     .staff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 3%;
         text-align: center;
         border: solid #333333 1px;
+        height: 31%;
+        background-color: #fcf5c7;
+
+        button {
+            margin-top: 3px;
+            margin-bottom: 3px;
+            outline: none;
+            border: none;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            background: #d2a679;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            font-weight: 300;
+
+            &:hover{
+                color: #d2a679;
+                background-color: #fff;
+                border: 1px solid #3f51b5;
+            }
+        }
     }
 }

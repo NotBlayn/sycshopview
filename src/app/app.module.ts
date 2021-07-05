@@ -20,6 +20,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ProductListComponent } from './pages/product-list/product-list.component';
+import { ProductListItemComponent } from './pages/product-list/product-list-item/product-list-item.component';
 
 
 
@@ -29,6 +31,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HeaderComponent,
     MainComponent,
     NavbarComponent,
+    ProductListComponent,
+    ProductListItemComponent,
   ],
   imports: [
     BrowserModule,

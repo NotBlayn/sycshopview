@@ -1,0 +1,40 @@
+.content {
+    position: relative;
+    width: 100%;
+    background-color: bisque;
+    top: -83%;
+    left: 17%;
+    padding: 10px;
+    border: solid black 1px;
+    height: 92.5%;
+
+    &-header{
+        button {
+            margin-left: 5px;
+            outline: none;
+            border: none;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            background: #a3763f;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+            font-weight: 300;
+    
+            &:hover{
+                color: #a3763f;
+                background-color: #fff;
+                border: 1px solid #3f51b5;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}

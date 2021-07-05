@@ -1,6 +1,6 @@
 mat-toolbar {
     background-color: #277da1;
-    top: 8%;
+    top: 12%;
     position: relative;
     width: 17%;
     font-style: bold;
@@ -9,12 +9,12 @@ mat-toolbar {
 }
 
 mat-sidenav-container {
-    top: 8%;
+    top: 12%;
     position: relative;
     width: 17%;
     background-color: #a0ced9;
     border: solid #333333 1px;
-    height: 85%;
+    height: 88%;
 
     .shop {
         display: flex;
@@ -48,6 +48,7 @@ mat-sidenav-container {
                 color: #737373;
                 background-color: #fff;
                 border: 1px solid #3f51b5;
+                font-weight: bold;
             }
         }
     }
@@ -83,6 +84,7 @@ mat-sidenav-container {
                 color: #3e7221;
                 background-color: #fff;
                 border: 1px solid #3f51b5;
+                font-weight: bold;
             }
         }
     }
@@ -120,6 +122,7 @@ mat-sidenav-container {
                 color: #d2a679;
                 background-color: #fff;
                 border: 1px solid #3f51b5;
+                font-weight: bold;
             }
         }
     }

@@ -18,8 +18,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 
 import { HeaderComponent } from './components/header/header.component';
-import { MainComponent } from './components/main/main.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ContentMainComponent } from './components/content-main/content-main.component';
 
 
 
@@ -27,8 +27,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent,
     NavbarComponent,
+    ContentMainComponent,
   ],
   imports: [
     BrowserModule,

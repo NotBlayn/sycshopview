@@ -1,0 +1,9 @@
+.main {
+    &-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        top: 12px;
+    }
+}

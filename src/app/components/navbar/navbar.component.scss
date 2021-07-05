@@ -1,0 +1,39 @@
+mat-toolbar {
+    background-color: #4d79ff;
+    top: 8%;
+    position: relative;
+    width: 17%;
+    font-style: bold;
+    color: #fff;
+    border: solid #333333 1px;
+}
+
+mat-sidenav-container {
+    top: 8%;
+    position: relative;
+    width: 17%;
+    background-color: #99b3ff;
+    border: solid #333333 1px;
+
+    .shop {
+        padding: 3%;
+        text-align: center;
+        border: solid #333333 1px;
+
+        &-button {
+
+        }
+    }
+
+    .product {
+        padding: 3%;
+        text-align: center;
+        border: solid #333333 1px;
+    }
+    
+    .staff {
+        padding: 3%;
+        text-align: center;
+        border: solid #333333 1px;
+    }
+}

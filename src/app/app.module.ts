@@ -22,6 +22,14 @@ import { MainComponent } from './components/main/main.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { ProductListItemComponent } from './pages/product-list/product-list-item/product-list-item.component';
+import { BrandListComponent } from './pages/brand-list/brand-list.component';
+import { BrandListItemComponent } from './pages/brand-list/brand-list-item/brand-list-item.component';
+import { DepartmentListComponent } from './pages/department-list/department-list.component';
+import { DepartmentListItemComponent } from './pages/department-list/department-list-item/department-list-item.component';
+import { ShopListComponent } from './pages/shop-list/shop-list.component';
+import { ShopListItemComponent } from './pages/shop-list/shop-list-item/shop-list-item.component';
+import { ProductStockListComponent } from './pages/product-stock-list/product-stock-list.component';
+import { ProductStockListItemComponent } from './pages/product-stock-list/product-stock-list-item/product-stock-list-item.component';
 
 
 
@@ -33,6 +41,14 @@ import { ProductListItemComponent } from './pages/product-list/product-list-item
     NavbarComponent,
     ProductListComponent,
     ProductListItemComponent,
+    BrandListComponent,
+    BrandListItemComponent,
+    DepartmentListComponent,
+    DepartmentListItemComponent,
+    ShopListComponent,
+    ShopListItemComponent,
+    ProductStockListComponent,
+    ProductStockListItemComponent,
   ],
   imports: [
     BrowserModule,

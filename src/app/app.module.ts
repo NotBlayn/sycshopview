@@ -17,6 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 
+import { ContentMainComponent } from './components/content-main/content-main.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
@@ -35,6 +36,7 @@ import { ProductStockListItemComponent } from './pages/product-stock-list/produc
 @NgModule({
   declarations: [
     AppComponent,
+    ContentMainComponent,
     HeaderComponent,
     NavbarComponent,
     ProductListComponent,

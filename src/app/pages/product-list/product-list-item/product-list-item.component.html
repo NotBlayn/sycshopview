@@ -7,7 +7,7 @@
   <div class="details">
     <p>Price : {{product.price | number : '1.2-2' }} €</p>
     <p>{{product.productStockByProduct}}</p>
-    <button>Update the product</button>
+    <button [routerLink]="['/products', product.id]">Details</button>
   </div>
 
 </div>

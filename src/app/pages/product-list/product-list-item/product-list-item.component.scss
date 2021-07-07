@@ -42,6 +42,8 @@ button {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
+    cursor: pointer;
+
     &:hover {
         background-color: #229602;
         color: white;

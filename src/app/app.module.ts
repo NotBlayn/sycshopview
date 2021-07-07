@@ -30,6 +30,10 @@ import { ShopListComponent } from './pages/shop-list/shop-list.component';
 import { ShopListItemComponent } from './pages/shop-list/shop-list-item/shop-list-item.component';
 import { ProductStockListComponent } from './pages/product-stock-list/product-stock-list.component';
 import { ProductStockListItemComponent } from './pages/product-stock-list/product-stock-list-item/product-stock-list-item.component';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
+import { BrandDetailsComponent } from './pages/brand-details/brand-details.component';
+import { ShopDetailsComponent } from './pages/shop-details/shop-details.component';
+import { DepartmentDetailsComponent } from './pages/department-details/department-details.component';
 
 
 
@@ -49,6 +53,10 @@ import { ProductStockListItemComponent } from './pages/product-stock-list/produc
     ShopListItemComponent,
     ProductStockListComponent,
     ProductStockListItemComponent,
+    ProductDetailsComponent,
+    BrandDetailsComponent,
+    ShopDetailsComponent,
+    DepartmentDetailsComponent,
   ],
   imports: [
     BrowserModule,

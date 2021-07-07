@@ -1,30 +1,32 @@
 <mat-toolbar>
-    My Navbar
+  My Navbar
 </mat-toolbar>
 
 <mat-sidenav-container>
-    <mat-sidenav>
+  <mat-sidenav>
 
-    </mat-sidenav>
-    <mat-sidenav-content>
+  </mat-sidenav>
+  <mat-sidenav-content>
     <div class="shop">
-        <button> Shop </button>
+      <button [routerLink]="['/shops']"> Shops </button>
+      <button [routerLink]="['/departments']"> Departments </button>
     </div>
     <div class="product">
-        <button> Product </button>
+      <button [routerLink]="['/products']"> Products </button>
+      <button [routerLink]="['/brands']"> Brands </button>
     </div>
 
     <div class="staff">
 
-        <button> Staff </button>
+      <button [routerLink]="['/']"> Staff </button>
 
-        <button> Department Manager </button>
+      <button [routerLink]="['/']"> Department Manager </button>
 
-        <button> Team Manager </button>
+      <button [routerLink]="['/']"> Team Manager </button>
 
-        <button> Director </button>
-       
+      <button [routerLink]="['/']"> Director </button>
+
     </div>
-</mat-sidenav-content>
+  </mat-sidenav-content>
 
 </mat-sidenav-container>

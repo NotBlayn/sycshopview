@@ -1,0 +1,51 @@
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 1%;
+    &:hover {
+        transition-duration: 0.25s;
+        transform: scale(1.01);
+    }
+}
+
+.description {
+    margin: 7.5px;
+    font-size: 17.5px;
+}
+
+.description-resize {
+    font-size: 16px;
+}
+
+img {
+    height: 30%;
+    margin-left: 22.5%;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: block;
+}
+
+.details {
+    margin: 7.5px;
+    font-size: 12.5px;
+}
+
+button {
+    display: block;
+    width: 90%;
+    background-color: #C5F2B9;
+    border: 1px solid #458434;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    &:hover {
+        background-color: #229602;
+        color: white;
+        font-weight: bold;
+        transition-duration: 0.1s;
+    }
+}

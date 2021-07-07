@@ -9,7 +9,10 @@ import { environment } from 'src/environments/environment';
 export class ProductStockService {
 
   productsStocks: any;
+  productStockByProductId: any;
+
   productsStocksSubject = new Subject();
+  productStockByProductIdSubject = new Subject();
 
   constructor(private http: HttpClient) { }
 
@@ -21,6 +24,15 @@ export class ProductStockService {
       console.log(error);
     });
   }
+  getProductStockByProductId(id: number): void {
+    this.http.get(`${environment.apiUrl}api/product-stock/product/${id}/`).subscribe(productStockApi => {
+      this.productStockByProductId = productStockApi;
+      this.productStockByProductIdSubject.next(this.productStockByProductId);
+    }, error => {
+      console.log(error);
+    });
+  }
+
 
 
 

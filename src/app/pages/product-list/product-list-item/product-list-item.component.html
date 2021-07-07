@@ -1,4 +1,12 @@
-<div>
-    {{product.name}} {{product.price}} {{brand.name}}
-    <br>
+<div class="card">
+    <div class="description">
+        <span [ngClass]="{'description-resize':nameNumberCharacters}"><b>{{product.name}}</b></span><br><span [ngClass]="{'description-resize':brandNameNumberCharacters}">{{product.brand.name}}</span>
+    </div>
+    <img src="../assets/images/caddie.png" />
+    <div class="details">
+        <p>Price : {{product.price | number : '1.2-2' }} €</p>
+        <p>{{product.productStockByProduct}}</p>
+        <button>Update the product</button>
+    </div>
+
 </div>

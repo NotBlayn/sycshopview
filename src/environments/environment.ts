@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl:'http://sycshop-env.eba-rvp8hhxq.us-east-2.elasticbeanstalk.com/'
+  apiUrl:'http://localhost:8080/'
 };
 
 /*
